@@ -1,6 +1,6 @@
 {
   "name": "resource-class",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A container for resourses that uses a cache to speed-up computation",
   "main": "./distribution/index.js",
   "scripts": {
