@@ -124,8 +124,7 @@ resource.data // [//original data]
 
 ##Example
 I have provided an example with Vue + Flue (a state managment library that I wrote) and Resource. You can find it here:
-[**users-wall**
-*Edit description*francescosaveriozuppichini.github.io](https://francescosaveriozuppichini.github.io/resourse-users-wall-example/)
+[users wall](https://francescosaveriozuppichini.github.io/resourse-users-wall-example/)
 
 If you open the console you can see the classic redux-logger. If you want to know more about Flue: [https://medium.com/@FrancescoZ/flue-another-flux-library-82ff43f70899](https://medium.com/@FrancescoZ/flue-another-flux-library-82ff43f70899)
 
