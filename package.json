@@ -1,6 +1,6 @@
 {
   "name": "resource-class",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A container for resourses that uses a cache to speed-up computation",
   "main": "./distribution/index.js",
   "scripts": {
@@ -21,8 +21,7 @@
     "url": "https://github.com/FrancescoSaverioZuppichini/Resource/issues"
   },
   "homepage": "https://github.com/FrancescoSaverioZuppichini/Resource#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-loader": "^6.4.0",
