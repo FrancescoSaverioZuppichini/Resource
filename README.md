@@ -19,7 +19,7 @@ You can install by
 
     var something = new Resource()
 
-##Motivation
+## Motivation
 
 We usually store data information as array in the state. It does not matter if you are using Vue, React or Angular.
 
@@ -73,16 +73,16 @@ We can always get the original array by calling the data field
     users.data = [//original array]
 
 Remember that the function that pulls each value from the map is called only when we modify!
-##API
+## API
 **Resouse** exposed basic CRUD methods:
 
-###GET
+### GET
 
 ```
 resouce.get(id)
 ```
 
-###ADD
+### ADD
 
     resource.add(newEl)
     
@@ -103,7 +103,7 @@ resource.add(user,'email') // user is store by email
 
 
 
-###REMOVE
+### REMOVE
     resouce.remove(id)
     
 If you want to remove multiple elements:
@@ -111,18 +111,18 @@ If you want to remove multiple elements:
     resource.removeMultiple([id1,id2...]) 
 
 
-###UPDATE
+### UPDATE
     resource.update(oldElement,{...newFields}) //update only the new fiedls
 
 
-###DATA
+### DATA
 To get the original data in array for just call `.data`
 
 ```
 resource.data // [//original data]
 ```
 
-##Example
+## Example
 I have provided an example with Vue + Flue (a state managment library that I wrote) and Resource. You can find it here:
 [users wall](https://francescosaveriozuppichini.github.io/resourse-users-wall-example/)
 
